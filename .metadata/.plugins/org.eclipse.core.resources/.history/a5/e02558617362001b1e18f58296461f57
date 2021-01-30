@@ -1,0 +1,22 @@
+package ekl.taller2.klever;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class UsoAnotations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//abrrir el archivo XML
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+
+		
+		Empleados Cristian=context.getBean("AdvisorEmpleado", Empleados.class);
+		
+		
+		System.out.println(Cristian.getInforme());
+		System.out.println(Cristian.getTareas());
+	}
+
+}

@@ -1,0 +1,11 @@
+package ekl.Taller.Klever;
+
+public class DirectorEmpleado implements Empleados {
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Direccionar el rumbo de la compania, desde lo macro";
+	}
+
+}

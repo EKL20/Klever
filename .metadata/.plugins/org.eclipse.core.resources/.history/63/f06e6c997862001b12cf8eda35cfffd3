@@ -1,0 +1,11 @@
+package ekl.taller2.klever;
+
+public class InformeVendedorTrimestral implements InformeEmpleado {
+
+	@Override
+	public String getInformeVendedor() {
+		// TODO Auto-generated method stub
+		return "Infome financiero de ventas";
+	}
+
+}

@@ -1,0 +1,11 @@
+package ekl.Taller.Klever;
+
+public class JefeEmpleado implements Empleados{
+	
+	//Sobre-escritura de metodo 
+	public String getTareas() {
+		
+		return "Gestion recursos y manejo de empleados";
+	}
+
+}

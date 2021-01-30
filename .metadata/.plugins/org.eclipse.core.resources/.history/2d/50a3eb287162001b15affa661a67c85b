@@ -1,0 +1,10 @@
+package ekl.taller2.klever;
+
+public class UsoAnotations {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

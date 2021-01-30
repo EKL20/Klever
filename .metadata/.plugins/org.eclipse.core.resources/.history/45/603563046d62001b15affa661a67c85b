@@ -1,0 +1,5 @@
+package ekl.taller2.klever;
+
+public interface Empleados {
+
+}

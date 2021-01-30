@@ -1,0 +1,24 @@
+package ekl.Taller.Klever;
+
+public class SecretarioEmpleado implements Empleados {
+	
+	public SecretarioEmpleado(CreacionInformes nuevoInforme) {
+		this.nuevoInforme = nuevoInforme;
+	}
+
+	public CreacionInformes nuevoInforme;
+	
+
+	@Override
+	public String getTareas() {
+		// TODO Auto-generated method stub
+		return "Funciones realizadas, a partir de las funciones de Jefe de area";
+	}
+
+	@Override
+	public String getInforme() {
+		// TODO Auto-generated method stub
+		return "Informe de secretario";
+	}
+
+}
